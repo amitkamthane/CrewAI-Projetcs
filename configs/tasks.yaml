@@ -1,0 +1,40 @@
+task_breakdown:
+  description: >
+    Look at the {project_type} project requirements and break them down into smaller tasks.
+    Define what each task involves, set achievable timelines, and make sure to consider all
+    dependencies:
+
+    {project_requirements}
+
+    Team members:
+
+    {team_members}
+
+  expected_output: >
+    A list of tasks with clear descriptions, timelines, dependencies, and deliverables.
+    You must include a timeline chart (like a Gantt chart) that shows the schedule for
+    the {project_type} project.
+
+time_resource_estimation:
+  description: >
+    Go through each task in the {project_type} project and estimate how much time, resources,
+    and effort it will take. Use past data, task difficulty, and available resources to make
+    realistic estimates.
+  expected_output: >
+    A detailed report that shows the time, resources, and effort needed for each task.
+    The report must include a summary of any potential risks or uncertainties related to
+    the estimations.
+
+resource_allocation:
+  description: >
+    Assign tasks for the {project_type} project to the right team members based on their skills,
+    availability, and current workload. Make sure no one is overloaded and that tasks are
+    given to the best-suited person for the job.
+
+    Team members:
+
+    {team_members}
+
+  expected_output: >
+    A chart showing which team members are responsible for each task, along with start and end dates.
+    You must also include a short explanation of why each team member was assigned their specific tasks.

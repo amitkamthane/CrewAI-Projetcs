@@ -57,12 +57,6 @@ This repository defines three key agents designed to help plan, estimate, and al
 - **Verbose:** 
   - Yes, the agent provides detailed explanations.
 
-## Key Takeaways
-
-- **Project Planning Agent:** Breaks down the project into tasks and sets clear timelines.
-- **Estimation Agent:** Estimates time, resources, and effort needed for each task.
-- **Resource Allocation Agent:** Ensures the right person is assigned to the right task based on their skills and availability.
-
 ## Usage
 
 These agents can be applied to any `{project_type}` project where careful planning, precise estimation, and efficient resource allocation are crucial. Simply integrate them into your project management process to ensure that each aspect of your project is well-managed.
@@ -89,3 +83,53 @@ resource_allocation_agent:
   backstory: "Expert in managing team dynamics and resources in {industry}."
   allow_delegation: false
   verbose: true
+```
+
+## Key Takeaways from Project Management Agents
+
+- **Project Planning Agent:** Breaks down the project into tasks and sets clear timelines.
+- **Estimation Agent:** Estimates time, resources, and effort needed for each task.
+- **Resource Allocation Agent:** Ensures the right person is assigned to the right task based on their skills and availability.
+
+
+## Key Tasks and Descriptions 
+### 1. **Task Breakdown**
+**Objective:** 
+- Analyze the project requirements for the `{project_type}` project and break them down into smaller tasks.
+- Define the scope of each task in detail, set achievable timelines, and ensure all dependencies are accounted for.
+
+**Expected Output:**
+- A comprehensive list of tasks with clear descriptions, timelines, dependencies, and deliverables.
+- A timeline visualization (such as a Gantt chart) that shows the schedule for the project.
+
+---
+
+### 2. **Time and Resource Estimation**
+**Objective:**
+- Evaluate each task in the `{project_type}` project to estimate the time, resources, and effort needed.
+- Use historical data, task complexity, and available resources to make realistic estimates.
+
+**Expected Output:**
+- A detailed report outlining the time, resources, and effort needed for each task.
+- A summary of any risks or uncertainties associated with the estimations.
+
+---
+
+### 3. **Resource Allocation**
+**Objective:**
+- Assign tasks to the right team members based on their skills, availability, and current workload.
+- Ensure each task is allocated to the best-suited team member, and that the workload is balanced.
+
+**Expected Output:**
+- A resource allocation chart showing which team members are responsible for each task, along with their start and end dates.
+- A brief explanation of the rationale behind each allocation decision.
+
+---
+
+For each task:
+
+1. **Task Breakdown:** A list of detailed tasks with timelines and dependencies, along with a Gantt chart or similar timeline.
+2. **Time and Resource Estimation:** A report with estimates for time, resources, and effort, including any risks or uncertainties.
+3. **Resource Allocation:** A chart showing team member assignments, along with explanations of why those allocations were made.
+
+
